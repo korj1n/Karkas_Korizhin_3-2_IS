@@ -16,17 +16,13 @@ using System.Windows.Shapes;
 namespace Karkas_Korizhin_3_2_IS
 {
     /// <summary>
-    /// Логика взаимодействия для AddEditPage.xaml
+    /// Логика взаимодействия для HotelsPay.xaml
     /// </summary>
-    public partial class AddEditPage : Page
+    public partial class HotelsPay : Page
     {
-        public AddEditPage()
+        public HotelsPay()
         {
             InitializeComponent();
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.Navigate(new HotelsPay());
         }
     }
 }

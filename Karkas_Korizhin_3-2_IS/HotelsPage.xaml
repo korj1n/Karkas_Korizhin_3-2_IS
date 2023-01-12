@@ -8,11 +8,11 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="HotelsPage">
 
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="208">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="226">
         <TextBlock HorizontalAlignment="Center" Height="166" Width="358" TextWrapping="Wrap" FontFamily="Bahnschrift Light" FontWeight="Medium" TextAlignment="Justify" FontSize="20" ><Run Text="В приложении Header можно выбрать, сравнить и забронировать любой из более 1"/><Run Language="ru-ru" Text=" "/><Run Text="000 вариантов размещений — отели, гостиницы, апартаменты, хостелы, гостевые дома и кемпинги — в 100 городах России."/></TextBlock>
-        <StackPanel  Orientation="Horizontal" Width="366" Height="37">
+        <StackPanel  Orientation="Horizontal" Width="373" Height="47">
         <Button Content="Выбрать город"   Width="132" Height="30" Click="Button_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Button Content="Примеры номеров"   Width="168" Height="30" Click="Button_Click_1" Margin="54,3,5,5"/>
+            <Button Content="Примеры номеров"   Width="168" Height="30" Click="Button_Click_1" Margin="56,3,5,5"/>
         </StackPanel>
     </StackPanel>
 </Page>

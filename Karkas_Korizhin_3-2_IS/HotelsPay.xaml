@@ -1,0 +1,18 @@
+﻿<Page x:Class="Karkas_Korizhin_3_2_IS.HotelsPay"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Karkas_Korizhin_3_2_IS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HotelsPay">
+
+    <Grid>
+        <TextBlock Text="Выбирите понравившийся номер отеля:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,31,0,0" FontSize="20"/>
+        <Image Source="/Resources/hotel_01.jpg"   HorizontalAlignment="Center" VerticalAlignment="Top"  Height="156" Width="220" Margin="0,92,0,0"></Image>
+        <Image Source="/Resources/2.png"   HorizontalAlignment="Left" VerticalAlignment="Top"  Height="156" Width="221" Margin="10,92,0,0"></Image>
+        <Image Source="/Resources/3.png"   HorizontalAlignment="Left" VerticalAlignment="Top"  Height="135" Width="221" Margin="589,102,0,0"></Image>
+    </Grid>
+
+</Page>

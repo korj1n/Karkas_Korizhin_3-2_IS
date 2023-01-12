@@ -8,12 +8,13 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Hotels">
 
-    <Grid>
-        <TextBlock Text="Примеры отелей" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"></TextBlock>
-        
-        <Image Source="/Resources/d8e00fc71efa0d3c878e270051396466.jpg" Height="172" Width="238"  HorizontalAlignment="Left" />
-        <Image Source="/Resources/download.jpg" Height="172" Width="292"  HorizontalAlignment="Center" OpacityMask="Black" />
-        <Image Source="/Resources/about-slide_03.jpg" Height="172" Width="292"  HorizontalAlignment="Right"/>
-    </Grid>
+    <StackPanel>
+        <TextBlock Text="Примеры номеров отелей" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,24,0,0" FontSize="20"/>
+        <StackPanel >
+            <Image Source="/Resources/Отель2.png"   HorizontalAlignment="Left" VerticalAlignment="Top"  Height="156" Width="221"  />
+            <Image Source="/Resources/Отель1.png"  Height="165" Width="220"  />
+            <Image Source="/Resources/Отель3.png"   HorizontalAlignment="Right" VerticalAlignment="Top"  Height="207" Width="221"  />
+        </StackPanel>
+    </StackPanel>
 
 </Page>

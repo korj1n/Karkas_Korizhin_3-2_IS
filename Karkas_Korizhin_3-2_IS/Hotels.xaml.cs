@@ -23,6 +23,9 @@ namespace Karkas_Korizhin_3_2_IS
         public Hotels()
         {
             InitializeComponent();
+            
         }
+
+        
     }
 }

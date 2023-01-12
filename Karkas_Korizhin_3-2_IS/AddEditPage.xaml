@@ -8,7 +8,15 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddEditPage">
 
-    <Grid>
-        <TextBlock Text="Hello!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"></TextBlock>
-    </Grid>
+    <StackPanel>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Margin="0,48,0,-10"><Run Text="Выберете город"/><Run Language="ru-ru" Text=":"/></TextBlock>
+        <StackPanel  Orientation="Horizontal" Width="366" Height="51" Margin="216,49,218,-62">
+            <Button Content="Кострома"   Width="132" Height="30" Click="Button_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button Content="Москва"   Width="140" Height="30" Click="Button_Click" Margin="70,5,13,5"/>
+        </StackPanel>
+        <StackPanel  Orientation="Horizontal" Width="366" Height="51" Margin="0,68,0,0">
+            <Button Content="Санкт-Петербург"   Width="159" Height="30" Click="Button_Click" VerticalAlignment="Center"/>
+            <Button Content="Новосибирск"   Width="127" Height="30" Click="Button_Click" Margin="51.5,5,5,5"/>
+        </StackPanel>
+    </StackPanel>
 </Page>
